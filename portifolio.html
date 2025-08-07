@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fulana de Tal - Portfólio</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.2/simple-lightbox.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.2/simple-lightbox.min.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var lightbox = new SimpleLightbox('.project-images a', {
+            });
+        });
+    </script>
+    <header class="hero">
+        <h1 class="hero-title">Sofia Alexandrino</h1>
+        <p class="hero-subtitle">Analista de Dados | PostgreSQL | Python</p>
+        
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section id="sobre-mim" class="section">
+            <div class="sobre-mim-content">
+                <h2>Sobre mim</h2>
+                    <p>
+                        Desenvolvo processos de ETL no Azure Databricks e em bases de dados PostgreSQL, garantindo a integridade e qualidade dos dados. Sou responsável pela criação e manutenção de tabelas, views, triggers e stored procedures. Utilizo SQL e Python para realizar análises de dados como correlação, outliers, séries temporais e cohort analysis, gerando insights que suportam decisões estratégicas.
+                        <br><br>
+                        Trabalho na criação e otimização de KPIs e dashboards interativos no Power BI, aplicando DAX para cálculos avançados e automatizando processos que melhoram a eficiência operacional. Também atuo na modelagem dimensional de dados e monitoro projetos de Business Intelligence, garantindo a entrega de soluções consistentes e de alto impacto. Além disso, sou responsável pela governança de dados, gerindo permissões de acesso aos painéis de BI para assegurar que cada utilizador tenha o nível de acesso adequado.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills-columns">
+                <ul class="skills-list">
+                    <li>PostgreSQL</li>
+                    <li>SQL</li>
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>GIT</li>
+                    <li>Azure</li>
+                </ul>
+                <ul class="skills-list">
+                    <li>PowerBI</li>
+                    <li>Streamlit</li>
+                    <li>Análise de Dados Estatísticos</li>
+                    <li>Análise Exploratória de Dados</li>
+                    <li>Análise Preditiva</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+        </section>
+        <section id="projetos" class="section">
+            <h2>Projetos</h2>
+            <p>Cada projeto é um reflexo do processo de cocriação com o cliente. Através da escuta ativa e da pesquisa de mercado, identifiquei os melhores indicadores e as soluções visuais mais eficazes. A seguir, apresento uma seleção de trabalhos que traduzem necessidades em insights, sempre respeitando as regras de negócio e a estética de cada parceiro.</p>
+            <article class="project-card">
+                <h3>Painel de Gestão e Vendas</h3>
+                <div class="project-images">
+                    <a href="Painel_de_gestao_chat_tema_claro.png" data-lightbox="project-1-gallery">
+                        <img src="Painel_de_gestao_chat_tema_claro.png" alt="Imagem do Projeto 1 - Painel de Gestão" class="project-image">
+                    </a>
+                    <a href="Painel_de_gestao_chat.png" data-lightbox="project-1-gallery">
+                        <img src="Painel_de_gestao_chat.png" alt="Imagem do Projeto 1 - Painel do Vendedor" class="project-image">
+                    </a>
+                    <a href="Painel_vendedor_tema_claro.png" data-lightbox="project-1-gallery">
+                        <img src="Painel_vendedor_tema_claro.png" alt="Imagem do Projeto 1 - Painel de Gestão" class="project-image">
+                    </a>
+                    <a href="painel_vendedor_tema_escuro.png" data-lightbox="project-1-gallery">
+                        <img src="painel_vendedor_tema_escuro.png" alt="Imagem do Projeto 1 - Painel do Vendedor" class="project-image">
+                    </a>
+                </div>
+
+                <p>
+                    Desenvolvi um painel de gestão para vendedores e gestores, focado no desempenho em uma plataforma de conversas e seu impacto nas vendas. A solução permitiu a análise individual da performance dos vendedores, o monitoramento das conversas e a correlação entre a qualidade das interações e o volume de vendas. 
+                </p>
+                <p class="technologies">
+                    **Tecnologias:** Power BI, MySQL, PostgreSQL, Python (Pandas para ETL), SQL.
+                </p>
+            </article>
+
+            <article class="project-card">
+                <h3>Análise de Desempenho de E-commerce</h3>
+                <div class="project-images">
+                    <a href="painel_ecommerce.png" data-lightbox="project-2-gallery">
+                        <img src="painel_ecommerce.png" alt="Imagem do Projeto 2 - E-commerce" class="project-image">
+                    </a>
+                </div>
+                <p>
+                    Criação de um painel de desempenho para um e-commerce, com o objetivo de mensurar o impacto de um voucher promocional nas vendas. O painel visualiza o desempenho da campanha, permitindo a análise do crescimento das vendas, comportamento do cliente e a eficácia da promoção. O cliente queria entender se ainda era viável manter ou não a ferramenta e graças ao painel a tomada de decição foi certeira;
+                </p>
+                <p class="technologies">
+                    **Tecnologias:** Power BI, Python (Pandas para ETL), SQL.
+                </p>
+            </article>
+
+            <article class="project-card">
+                <h3>Painel de Vendas com Foco em Design</h3>
+                <div class="project-images">
+                    <div class="project-images">
+                    <a href="painel de Pedidos.png" data-lightbox="project-3-gallery">
+                        <img src="painel de Pedidos.png" alt="Imagem do Projeto 3 - Design" class="project-image">
+                    </a>
+                    <a href="Painel_de_pedidos_2.png" data-lightbox="project-3-gallery">
+                        <img src="Painel_de_pedidos_2.png" alt="Imagem do Projeto 3 - Design" class="project-image">
+                    </a>
+                <p>
+                    Desenvolvi um painel de vendas com uma abordagem visual e estética, focado em atender às necessidades do departamento de design da empresa. O painel apresenta dados de vendas de forma clara e visualmente agradável, alinhado à identidade visual da marca. Para as sugestões de vendas fiz uma análise preditiva usando alguns algorítmos e métodos de machine learning.
+                </p>
+                <p class="technologies">
+                    **Tecnologias:** Power BI, Python (Pandas para ETL), SQL.
+                </p>
+            </article>
+
+            <article class="project-card">
+                <h3>Análise de Desempenho de Notas Fiscais</h3>
+                <div class="project-images">
+                    <div class="project-images">
+                    <a href="painel_nota_fiscal.png" data-lightbox="project-4-gallery">
+                        <img src="painel_nota_fiscal.png" alt="Imagem do Projeto 4 - Feira" class="project-image">
+                    </a>
+                    
+                <p>
+                    Criei um painel para mensurar de forma rápida como estava a implementação da emissão de notas fiscais automatizadas em um novo sistema de uma empresa; Eles já emitiam notas fiscais, mas como estavam atualizando o sistema administrativo, queriam mensurar como estava a emissão o processo de aprovação, margem de erros e a forma como estavam sendo lidadas as escessões do processo (como devolução e cancelamento). Parte importante também, foi monitorar o valor que estava sendo pago de imposto, para entender se o comportamento permaneceria o mesmo e junto mensurando o quanto estava sendo gasto com impostos durante o período solicitado. 
+                           </p>
+                <p class="technologies">
+                    **Tecnologias:** Power BI, Python (Pandas para ETL), SQL.
+                </p>
+            </article>
+
+        </section>
+       
+
+    </main>
+     <footer class="footer">
+        <div class="footer-links">
+            <a href="mailto:sofiaalage@gmail.com" aria-label="Email">
+                <i class="fas fa-envelope fa-2x"></i>
+            </a>
+            <a href="https://github.com/sofiaalage" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sofiaalexandrino/" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://wa.me/31998966103" target="_blank" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp fa-2x"></i>
+            </a>
+        </div>
+        <p class="footer-text">Desenvolvido por Sofia Alexandrino</p>
+    </footer>
+ 
+
+</body>
+</html>
